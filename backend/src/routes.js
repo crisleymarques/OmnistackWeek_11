@@ -7,7 +7,7 @@ const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
-//Login ou verificar se a ONG existe.
+//Login ou verificar se a ONG existe
 routes.post('/sessions', SessionController.create);
 
 //Listagem de ONGS
